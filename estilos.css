@@ -1,0 +1,52 @@
+.imagen-fondo {
+	
+	background-image: url("img/bodyimage.png");
+	background-color: grey;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+
+#contactform{
+
+
+width: 30%;
+height: 60%;
+margin-left: 60%;
+
+background:  rgba(0,0,0,0.5);
+color: #ffff;
+box-sizing: border-box;
+padding: 10px;
+transform: translate(10px);
+border-radius: 15px;
+}
+
+footer{
+
+	width: 100%;
+	background-color: #232323;
+  color: #ffffff;   
+	text-align: center;
+	
+}
+
+.carousel {
+
+
+width: 10%;
+margin-left: 45%;
+
+
+}
+
+
+#services{
+
+
+text-align: center;
+
+
+}
