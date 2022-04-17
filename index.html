@@ -8,7 +8,8 @@
 <link rel="stylesheet" type="text/css" href="estilos.css">
     <!--Estilos CSS de Bootstrap Local-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700,100i,200i,300i,400i,500i,600i,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+ 
 </head>
 <body  >
    
@@ -37,10 +38,10 @@
             Servicios
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Google Ads</a></li>
+            <li><a class="dropdown-item" href="#">Facebook Ads</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Creación De Contenido</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -49,20 +50,28 @@
       </ul>
       <form class="d-flex">
        
-        <button class="btn btn-outline-success" type="submit" style="color:#ffff;border-color: purple;background: purple;
+        <button class="btn btn-outline-success " type="submit" style="color:#ffff;border-color: purple;background: purple;width: 100%;
         ">Contactanos</button>
+
       </form>
     </div>
   </div>
 </nav>
+<!--Fin del Menu de Navegación-->
+
 
 <!--Imagen de fondo-->
 
 <div class="imagen-fondo">
-	
-<!--form contact-->
 
-<div class="mb-3" id="contactform">
+<!--Form contact-->
+
+
+<div class="mb-3 container col-12 col-md-9" id="contactform" >
+  <div class="col-12 col-md-3">
+   
+
+  <h2 > Cotiza con nosotros </h2>
   <label class="form-label">Nombre</label>
   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
 
@@ -76,60 +85,108 @@
 <br>
   <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+
+<br>
+
+
+
+
+<button type="button" class="btn btn-primary btn-lg" style="color:#ffff !important;background: purple;border-color: purple;width: 100%;">Enviar
+
+
+</button>
+</div>
 </div>
 
+
+
+
 </div>
 
 
-	<h2 id="services">Servicios</h2>
+
+<br>
+
+<!--Servicios columns-->
 
 
-<!--servicios sliders-->
+<div class="container " align="center">
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div class="row services">
+     <h2 id="services"><strong>Servicios</strong></h2>
+    <div class="col-12 col-md-3">
+ <img src="img/creacion.png" class="d-block w-100 " id="transicion" alt="...">
+    </div>
+    <div class="col-12 col-md-3">
+      <img src="img/analitica.png" class="d-block w-100 " id="transicion" alt="...">
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="img/google_ads.png" class="d-block w-100 " id="transicion" alt="...">
+    </div>
+
+    <div class="col-12 col-md-3">
+ <img src="img/facebook_ads.png" class="d-block w-100 " id="transicion" alt="...">
+    </div>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/analitica.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/creacion.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/facebook_ads.png" class="d-block w-100" alt="...">
-    </div>
+</div>
 
-     <div class="carousel-item">
-      <img src="img/google_ads.png" class="d-block w-100" alt="...">
+
+<div class="estrategias">
+      <h2>¿Sabías que muchos negocios cierran porque son invisibles?</h2>
+      <p>Hacemos despegar tu negocio, web y clientes potenciales a lo más alto.</p>
+    
+    <div class="accordion container" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Estrategias Exitosas.
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>Analizamos completamente tu negocio con el objetivo de crear estrategias y embudos que se adapten a tu marca.</strong>
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+       Herramientas de performance.
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>Utilizamos herramientas de medición y de análisis , para sacar el máximo provecho a tu inversión.</strong> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Conseguimos leads de calidad.
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>Nuestro objetivo, es conseguir la mayor cantidad de ventas o de clientes potenciales que tengan la mayor intención de compra.</strong> 
+      </div>
+    </div>
+  </div>
 </div>
+ 
 
 <!--fin servicios-->
-
-
-
-
 
 
 <footer>
 	<!-- footer de la pagina-->
 <p> © Copyright 2021 Marketboost- All Rights Reserved</p>
 
-	<a href="contactanos.html">
-	Contactanos </a>
+  <a href="contactanos.html">
+  Contactanos </a>
+
+
 	</footer>
 
 
