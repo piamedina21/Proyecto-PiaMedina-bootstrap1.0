@@ -1,0 +1,169 @@
+
+/*Texto de sitio*/
+h2{
+
+
+ font-family: 'Josefin Sans';
+}
+
+button{
+
+	 font-family: 'Josefin Sans' !important;
+}
+
+
+nav{
+
+	 font-family: 'Josefin Sans' !important;
+	 font-size: 20px;
+}
+
+
+/* Diseño Footer*/
+
+footer{
+
+	width: 100%;
+	height: 100%;
+	background-color: #232323;
+    color: #ffffff;   
+	text-align: center;
+	margin: auto;
+
+	
+}
+
+/*Imagen de fondo*/
+
+.sectionbody{
+
+height: 100vh;
+	 background-image: url('img/diseño.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+.diseño{
+
+font-family: 'Josefin Sans' !important;
+color: ;
+text-align: center;
+color: #2a4c8a;
+
+}
+
+.imagen-fondo{
+	
+	background-image: url("img/bodyimage.png");
+	background-color: grey;
+	background-repeat: no-repeat;
+   
+    background-position: center;
+	background-size: cover;  /*responsive para imagen*/
+    padding-top: 120px;
+    padding-bottom: 60px;
+    height: 100vh !important;
+    width: 100%;
+
+   
+}
+
+/*Animaciones*/
+
+.plantas1{
+	margin-top: -56vh;
+	margin-left: 10vh;
+	background-size: cover;  /*responsive para imagen*/
+	position: relative;
+
+	
+}
+.plantas2{
+	margin-top: -56vh;
+	margin-left: 160vh;
+	background-size: cover;  /*responsive para imagen*/
+	position: relative;
+	margin-top: 50px;
+
+
+	
+	
+}
+
+
+.mover {
+        animation-name: mover;
+        animation-duration: 0.4s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes mover {
+        0% {
+          transform: rotate(-0.3deg);
+        }
+        100% {
+          transform: rotate(0.5deg);
+        }
+      }
+
+
+}
+
+
+
+/* Form contact*/
+
+#contactform{
+
+
+width: 30%;
+height: 60%;
+margin-left: 50%;
+display: flex;
+align-items: left;
+
+background:  rgba(0,0,0,0.5);
+color: #ffff;
+box-sizing: border-box;
+padding: 10px;
+transform: translate(10px);
+border-radius: 15px;
+}
+
+
+/*Servicios columns*/
+
+.services{
+
+width: 50%;
+text-align: center;
+ font-family: 'Josefin Sans';
+color: #2a4c8a;
+}
+
+
+/*TRANSICIONES*/
+
+#transicion {
+	transition: width 0.5s !important;
+}
+#transicion:hover {
+	width: 200px !important;
+}
+
+
+
+.botoncotizar{
+
+width: 100% !important;
+
+}
+
+
+
+.estrategias{
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	margin-top: 50px;
+}
