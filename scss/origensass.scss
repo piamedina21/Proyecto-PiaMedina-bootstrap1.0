@@ -1,20 +1,31 @@
 
+
+
+
+//variables de fuentes
+@import "colores";
+@import "fuentes";
+
 /*Texto de sitio*/
+
+
+
+
 h2{
 
 
- font-family: 'Josefin Sans';
+ font-family: $josefina;
 }
 
 button{
 
-	 font-family: 'Josefin Sans' !important;
+	 font-family: $josefina;
 }
 
 
 nav{
 
-	 font-family: 'Josefin Sans' !important;
+	 font-family: $josefina;
 	 font-size: 20px;
 }
 
@@ -25,8 +36,8 @@ footer{
 
 	width: 100%;
 	height: 100%;
-	background-color: #232323;
-    color: #ffffff;   
+	background-color: $semigris;
+  color: $blanco;
 	text-align: center;
 	margin: auto;
 
@@ -44,19 +55,20 @@ height: 100vh;
     position: relative;
 }
 
-.diseño{
+.diseño
 
-font-family: 'Josefin Sans' !important;
-color: ;
+{
+
+font-family: $josefina;
 text-align: center;
-color: #2a4c8a;
+color: $azulito;
 
 }
 
 .imagen-fondo{
 	
 	background-image: url("img/bodyimage.png");
-	background-color: grey;
+	background-color: $gris;
 	background-repeat: no-repeat;
    
     background-position: center;
@@ -107,27 +119,27 @@ color: #2a4c8a;
       }
 
 
-}
+
 
 
 
 /* Form contact*/
 
-#contactform{
+#contactform
+{
+
+	input{
+	width: 100%;
+			}
 
 
-width: 30%;
-height: 60%;
-margin-left: 50%;
-display: flex;
-align-items: left;
+		width: 30%;
+		margin-left:60%;
+		background:  $transparente;
+		color: $blanco;
+		padding: 5vh;
+		border-radius: 20px;
 
-background:  rgba(0,0,0,0.5);
-color: #ffff;
-box-sizing: border-box;
-padding: 10px;
-transform: translate(10px);
-border-radius: 15px;
 }
 
 
@@ -138,18 +150,19 @@ border-radius: 15px;
 width: 50%;
 text-align: center;
  font-family: 'Josefin Sans';
-color: #2a4c8a;
+color: $azulito;
 }
 
 
 /*TRANSICIONES*/
 
 #transicion {
-	transition: width 0.5s !important;
+transition: width 0.5s !important;
+	&:hover{
+		width: 200px !important;
+	}
 }
-#transicion:hover {
-	width: 200px !important;
-}
+
 
 
 
