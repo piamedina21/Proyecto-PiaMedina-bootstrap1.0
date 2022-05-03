@@ -1,187 +1,149 @@
-
-
-
-
-//variables de fuentes
-@import "colores";
-@import "fuentes";
-
+@charset "UTF-8";
 /*Texto de sitio*/
-
-
-
-
-h2{
-
-
- font-family: $josefina;
+h2 {
+  font-family: "Josefin Sans" !important;
 }
 
-button{
-
-@extend h2;
-	 
+p {
+  font-family: "Josefin Sans" !important;
 }
 
-
-nav{
-
-	 font-family: $josefina;
-	 font-size: 20px;
+button {
+  font-family: "Josefin Sans" !important;
 }
 
+nav {
+  font-family: "Josefin Sans" !important;
+  font-size: 20px;
+}
 
 /* Diseño Footer*/
-
-footer{
-
-	width: 100%;
-	height: 100%;
-	background-color: $semigris;
-  color: $blanco;
-	text-align: center;
-	margin: auto;
-
-	
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #232323;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
 }
 
 /*Imagen de fondo*/
-
-.sectionbody{
-
-height: 100vh;
-	 background-image: url('img/diseño.png');
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: relative;
+.sectionbody {
+  height: 100vh;
+  background-image: url("img/diseño.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
-.diseño
-
-{
-
-font-family: $josefina;
-text-align: center;
-color: $azulito;
-
+.diseño {
+  font-family: "Josefin Sans" !important;
+  text-align: center;
+  color: #2a4c8a;
 }
 
 .imagen-fondo{
-	
-	background-image: url("img/bodyimage.png");
-	background-color: $gris;
-	background-repeat: no-repeat;
-   
-    background-position: center;
-	background-size: cover;  /*responsive para imagen*/
-    padding-top: 120px;
-    padding-bottom: 60px;
-    height: 100vh !important;
-    width: 100%;
-
-   
+  background-image: url("img/bodyimage.png");
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*responsive para imagen*/
+  padding-top: 120px;
+  padding-bottom: 60px;
+  height: 100vh !important;
+  width: 100%;
 }
 
 /*Animaciones*/
-
-.plantas1{
-	margin-top: 1000px;
-	margin-left: 10vh;
-	background-size: cover;  /*responsive para imagen*/
-	position: relative;
-
-	
-}
-.plantas2{
-
-  display: flex;
-	margin-top: -56vh;
-	margin-left: 160vh;
-	background-size: cover;  /*responsive para imagen*/
-	position: relative;
-	
-
-
-	
+.plantas1 {
+  margin-top: -56vh;
+  margin-left: 10vh;
+  background-size: cover;
+  /*responsive para imagen*/
+  position: relative;
 }
 
+.plantas2 {
+  margin-top: -56vh;
+  margin-left: 160vh;
+  background-size: cover;
+  /*responsive para imagen*/
+  position: relative;
+  margin-top: 50px;
+}
 
 .mover {
-        animation-name: mover;
-        animation-duration: 0.4s;
-        animation-iteration-count: infinite;
-      }
-      @keyframes mover {
-        0% {
-          transform: rotate(-0.3deg);
-        }
-        100% {
-          transform: rotate(0.5deg);
-        }
-      }
+  animation-name: mover;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
 
-
-
-
-
+@keyframes mover {
+  0% {
+    transform: rotate(-0.3deg);
+  }
+  100% {
+    transform: rotate(0.5deg);
+  }
+}
 
 /* Form contact*/
-
-#contactform
-{
-
-	input{
-	width: 100%;
-			}
-
-
-		width: 30%;
-		margin-left:60%;
-		background:  $transparente;
-		color: $blanco;
-		padding: 5vh;
-		border-radius: 20px;
-
+#contactform {
+  width: 30%;
+  margin-left: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 5vh;
+  border-radius: 20px;
+}
+#contactform input {
+  width: 100%;
 }
 
+
+/* Form contact1*/
+#contactform1 {
+  width: 30%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 5vh;
+  border-radius: 20px;
+  
+}
+#contactform1 input {
+  width: 100%;
+}
 
 /*Servicios columns*/
-
-.services{
-
-width: 50%;
-text-align: center;
- font-family: 'Josefin Sans';
-color: $azulito;
+.services {
+  width: 50%;
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: #2a4c8a;
 }
-
 
 /*TRANSICIONES*/
-
 #transicion {
-transition: width 0.5s !important;
-	&:hover{
-		width: 200px !important;
-	}
+  transition: width 0.5s !important;
+}
+#transicion:hover {
+  width: 200px !important;
 }
 
-
-
-
-.botoncotizar{
-
-width: 100% !important;
-
+.botoncotizar {
+  width: 100% !important;
 }
 
-
-
-.estrategias{
-	text-align: center;
-	display: flex;
-	flex-flow: column;
-	margin-top: 50px;
+.estrategias {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  margin-top: 50px;
 }
+
+/*# sourceMappingURL=estilos.css.map */
 
 #testimonios{
 
@@ -210,7 +172,7 @@ font-family: "Josefin Sans";
 .align-left {
     text-align: left;
   
-  
+ 
 }
 
 .fondo_lila{
@@ -230,7 +192,6 @@ font-family: "Josefin Sans";
 
 .fondo_contacto{
   background-image: url(img/fondo_contacto.png);
-  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -298,8 +259,6 @@ background: rgba(0, 0, 0, 0.5);
   }
 }
 
-
-
 /*Smartphone*/
 @media (max-width: 479px){
   #contactform{
@@ -312,7 +271,6 @@ background: rgba(0, 0, 0, 0.5);
      
   }
 }
-
 
 
 /////////////*fin*///////////////////
@@ -330,5 +288,4 @@ background: rgba(0, 0, 0, 0.5);
    width: 100%;
   }
 }
-
 
