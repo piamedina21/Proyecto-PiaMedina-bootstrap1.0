@@ -234,4 +234,28 @@ footer {
   }
 }
 
+.containermarketing{
+
+  margin: auto;
+  padding: auto;
+  margin-top: 5%;
+  text-align: center;
+
+}
 /*# sourceMappingURL=estilos.css.map */
+
+
+
+
+#tarjetasimg
+{
+width: 22%;
+
+}
+
+#tarjetas{
+
+align-items: center;
+align-content: center;
+
+}
